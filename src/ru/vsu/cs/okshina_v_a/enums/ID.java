@@ -57,6 +57,16 @@ public enum ID {
         }
     },
 
+    WIZARD {
+        @Override
+        public String toString() {
+            return "W";
+        }
+        public String toFullString() {
+            return "Wizard";
+        }
+    },
+
     PAWN {
         @Override
         public String toString() {

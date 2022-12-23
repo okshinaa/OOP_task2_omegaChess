@@ -31,6 +31,9 @@ public class Boards {
         Champion championBa = new Champion(COLOUR.B, new Coordinate('a', bRank));
         Champion championBj = new Champion(COLOUR.B, new Coordinate('j', bRank));
 
+        Wizard wizardBe = new Wizard(COLOUR.B, new Coordinate('e', 8));
+        Wizard wizardBf = new Wizard(COLOUR.B, new Coordinate('f', 8));
+
         Rook rookBb = new Rook(COLOUR.B, new Coordinate('b', bRank));
         Rook rookBi = new Rook(COLOUR.B, new Coordinate('i', bRank));
 
@@ -57,6 +60,9 @@ public class Boards {
 
         Champion championWa = new Champion(COLOUR.W, new Coordinate('a', wRank));
         Champion championWj = new Champion(COLOUR.W, new Coordinate('j', wRank));
+
+        Wizard wizardWe = new Wizard(COLOUR.W, new Coordinate('e', 3));
+        Wizard wizardWf = new Wizard(COLOUR.W, new Coordinate('f', 3));
 
         Rook rookWb = new Rook(COLOUR.W, new Coordinate('b', wRank));
         Rook rookWi = new Rook(COLOUR.W, new Coordinate('i', wRank));
@@ -85,6 +91,9 @@ public class Boards {
         pieces.put(championBa.getCoords(), championBa);
         pieces.put(championBj.getCoords(), championBj);
 
+        pieces.put(wizardBe.getCoords(), wizardBe);
+        pieces.put(wizardBf.getCoords(), wizardBf);
+
         pieces.put(rookBb.getCoords(), rookBb);
         pieces.put(rookBi.getCoords(), rookBi);
 
@@ -111,6 +120,9 @@ public class Boards {
 
         pieces.put(championWa.getCoords(), championWa);
         pieces.put(championWj.getCoords(), championWj);
+
+        pieces.put(wizardWe.getCoords(), wizardWe);
+        pieces.put(wizardWf.getCoords(), wizardWf);
 
         pieces.put(rookWb.getCoords(), rookWb);
         pieces.put(rookWi.getCoords(), rookWi);
